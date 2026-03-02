@@ -51,3 +51,30 @@ git lfs install
 git clone [https://github.com/furkankayakilic/VehicleDamageSegmentation.git](https://github.com/furkankayakilic/VehicleDamageSegmentation.git)
 cd VehicleDamageSegmentation
 
+Backend Setup (AI & API)
+cd backend
+
+# Create a virtual environment (optional but recommended)
+python -m venv venv
+
+# Activate the virtual environment
+# On Windows:
+venv\Scripts\activate
+# On macOS/Linux:
+# source venv/bin/activate
+
+# Install dependencies 
+pip install -r requirements.txt
+
+# Run the backend server
+python app.py
+
+Mobile Frontend Setup (Expo)
+
+cd project
+
+# Install dependencies
+npm install
+
+# Start the application
+npx expo start
